@@ -1,0 +1,46 @@
+Project SafeShop
+
+Ensure your safety and social distancing through SafeShop integrated system. 
+SafeShop is reliable, simple, and fast ensuring that businesses can take full advantage of modern technologies.
+
+Link: https://github.com/Project-SafeShop
+
+The goal of this project is to ensure the safety of people and make sure people follow the necessary rules.
+This is achieved by 
+
+1. Face Mask Detection
+ - The goal is to check if people are wearing a mask properly or not.
+ - Cameras near the entrance of shops can be used for face mask detection.
+ - These cameras can be connected to a system like a speaker, screen, and auto-door. These will notify the person and prompt them to wear mask properly before entering the shop.
+ - The face mask detection model is made using TensorFlow Object Detection API.
+ - faster_rcnn_inception_v2 model has been used for training the Face Mask Detector.
+ - The model consists of 3 classes: "with_mask","without_mask" and "mask_weared_incorrect".
+ - Link: https://github.com/Project-SafeShop/SafeShop_Camera_MaskDetection
+
+2. Mobile application for ordering
+  - The goal is to reduce the exposure to the virus by converting physical waiting lines to digital waiting lines.
+  - People will be able to use his app to order the necessary items from home and they will be allocated a pick-up time slot, later they can go and pick up the order safely at the given time.
+  - The prototyping of the app was done on Adobe XD.
+  - The app is built on Android Studio, using Java (back-end) and XML (front-end).
+  - The app leverages the IBM Cloud App ID service which easily adds authentication for mobile apps.
+  - Currently, the app can be utilised by restaurants. We plan on adding functionality for various other businesses such as medical stores, grocery stores.
+  - Link: https://github.com/Project-SafeShop/SafeShop_App
+
+3. Distance Tracking Algorithm
+  - The goal is to track the distance between people inside a shop and prompt them to maintain social distancing.
+  - Location (latitude and longitude) of all people inside the shop will be sent to Google Firebase real-time database.
+  - Distance between people will be calculated using their location and if people are close to each other (less than 6 ft distance), they will be notified that people are within their range.
+  - Currently, the algorithm is made in Python. We plan on converting it to JAVA and integrating it with the app.
+  - Link: https://github.com/Project-SafeShop/SafeShop_Distance_Tracking_Algorithm
+
+SafeShop is better than exisiting technologies. None of the technologies out there allows users to track distance and maintain social distancing.
+SafeShop is ultimate safety package, correct use of technology will help us reduce and prevent further spread of virus.
+
+
+
+
+ 
+
+
+
+
