@@ -1,15 +1,5 @@
 Project SafeShop
-
 The goal of this project is to ensure the safety of people and make sure people follow the necessary rules.
-This is achieved by 
-
-1. Face Mask Detection
-2. Mobile application for ordering(converting physical waiting lines to digital waiting lines)
-3. Distance Tracking Algorithm(to track distance and maintain social distancing)
-
-
-
- 
 
 
 
